@@ -1,2 +1,1 @@
-# ademogo
-一个使用go写的demo，包含前后端
+#一个 go 写的 web 小程序，部署采用 docker，docker-compose 技术

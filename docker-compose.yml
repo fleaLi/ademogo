@@ -1,0 +1,20 @@
+version: "3.7"
+services:
+  circleweb:
+    image: circleweb:latest
+    container_name: c-web
+    restart: always
+    expose:
+      - 80
+    ports:
+      - 90:80
+    depends_on:
+      - circleapi
+  circleapi:
+    image: circleapi:latest
+    container_name: c-api
+    restart: always
+    volumes:
+      - /home/antzb/circleantzb/tempdata:/tempdata
+    expose:
+      - 8080

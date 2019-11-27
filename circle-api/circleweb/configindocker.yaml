@@ -1,0 +1,16 @@
+test: 12
+tmpdir: "/tempdata/"
+endpoint: "http://oss-cn-qingdao.aliyuncs.com"
+accessKey: "1111"
+secret: "111"
+bucket: "antzbdev"
+dbuser: "postgres"
+dbpwd: "Antzb"
+dbhost: "1.1.1.1"
+dbname: "antzb20180301"
+poidbuser: "postgres"
+poidbpwd: "tj31postgres"
+poidbhost: "2.2.2.2"
+poidbname: "osmgis"
+poidbport: 12008
+showsql: true

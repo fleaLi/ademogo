@@ -1,0 +1,17 @@
+test: 12
+tmpdir: "/users/flea/downloads/"
+endpoint: "http://oss-cn-qingdao.aliyuncs.com"
+accessKey: "11"
+secret: "111"
+bucket: "antzbdev11"
+dbuser: "postgres"
+dbpwd: "sdsfsfsd^^^"
+dbhost: "192.168.2.128"
+dbname: "antzb20180301"
+
+poidbuser: "postgres"
+poidbpwd: "tj31"
+poidbhost: "1192.168.2.128"
+poidbname: "osmgis"
+poidbport: 12008
+showsql: false
